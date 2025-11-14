@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Smart Skincare</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      background-image: url("D:/swc exercise/image/skin-care-products-green-leaves-cosmetic-skin-care-products-body-lotion-hair-shampoo-face-creme-essential-oil-green-leaves-219599306.webp");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    header {
+      background-color: rgba(255, 182, 193, 0.9);
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 24px;
+      letter-spacing: 1px;
+      backdrop-filter: blur(2px);
+    }
+
+    nav {
+      background-color: rgba(255, 222, 230, 0.9);
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding: 10px;
+      backdrop-filter: blur(2px);
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    nav a:hover {
+      color: #ff69b4;
+    }
+
+    .contact-section {
+      max-width: 700px;
+      margin: 60px auto;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      backdrop-filter: blur(3px);
+    }
+
+    .contact-section h2 {
+      text-align: center;
+      color: #ff69b4;
+      margin-bottom: 25px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea {
+      padding: 12px;
+      border: 1px solid #ffb6c1;
+      border-radius: 8px;
+      font-size: 16px;
+      width: 100%;
+    }
+
+    textarea {
+      height: 120px;
+      resize: none;
+    }
+
+    button {
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #ff85c1;
+    }
+
+    footer {
+      background-color: rgba(255, 182, 193, 0.9);
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+      font-size: 14px;
+      backdrop-filter: blur(2px);
+    }
+
+    .contact-info {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 16px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    SMART SKINCARE
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About Us</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+
+  <section class="contact-section">
+    <h2>Contact Us 💌</h2>
+    <p style="text-align:center;">Have questions or feedback? We’d love to hear from you!</p>
+    <form action="contact_process.php" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <p>📍 Address: 123 Glow Street, Kuala Lumpur, Malaysia</p>
+      <p>📞 Phone: +60 11-2345 6789</p>
+      <p>📧 Email: support@smartskincare.com</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Smart Skincare | Designed by tini 💖
+  </footer>
+
+</body>
+</html>

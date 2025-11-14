@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Skincare - Our Products</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff5f8;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #ffb6c1;
+      padding: 25px;
+      color: white;
+      font-size: 26px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    h1 {
+      margin-top: 40px;
+      color: #ff69b4;
+      font-size: 40px;
+      text-shadow: 1px 1px 2px #ffc0cb;
+    }
+
+    .product-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 50px 100px;
+    }
+
+    .product-card {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      overflow: hidden;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .product-info {
+      padding: 20px;
+    }
+
+    .product-info h3 {
+      color: #ff69b4;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .product-info p {
+      color: #555;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .price {
+      color: #e91e63;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .btn {
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #ff1493;
+    }
+
+    footer {
+      background-color: #ffb6c1;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Smart Skincare 🌸 | Product Collection
+  </header>
+
+  <h1>Our Products ✨</h1>
+
+  <section class="product-container">
+
+    <div class="product-card">
+      <img src="swc exercise/image/serumm.jpg" alt="Serum">
+      <div class="product-info">
+        <h3>Hydrating Serum</h3>
+        <p>Deep hydration formula for smooth, glowing skin.</p>
+        <div class="price">RM 30.00&nbsp;</div>
+        <br>
+        <a href="#" class="btn">Add to Cart</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="swc exercise/image/cleanserr.jpg" alt="Cleanser">
+      <div class="product-info">
+        <h3>Gentle Cleanser</h3>
+        <p>Removes dirt and impurities while keeping your skin soft.</p>
+        <div class="price">RM 20.00&nbsp;</div>
+        <br>
+        <a href="#" class="btn">Add to Cart</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="swc exercise/image/crammm.jpg" alt="Cream">
+      <div class="product-info">
+        <h3>Moisturizing Cream</h3>
+        <p>Locks in moisture for 24-hour hydration and radiance.</p>
+        <div class="price">RM 20.00&nbsp;</div>
+        <br>
+        <a href="#" class="btn">Add to Cart</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="toner.jpeg" alt="Toner">
+      <div class="product-info">
+        <h3>Rose Toner</h3>
+        <p>Balances skin pH and refreshes your complexion.</p>
+        <div class="price">RM 15.00&nbsp;</div>
+        <br>
+        <a href="#" class="btn">Add to Cart</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="susncreen.jpeg" alt="Sunscreen">
+      <div class="product-info">
+        <h3>SPF50 Sunscreen</h3>
+        <p>Protects your skin from harmful UV rays and sun damage.</p>
+        <div class="price">RM 40.00&nbsp;</div>
+        <br>
+        <a href="#" class="btn">Add to Cart</a>
+
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="mask skincare.jpeg" alt="Mask">
+      <div class="product-info">
+        <h3>Brightening Mask</h3>
+        <p>Revives dull skin with natural fruit and flower extracts.</p>
+        <div class="price">RM20.00&nbsp;</div>
+        <br>
+        <a href="#" class="btn">Add to Cart</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="scrub.jpg" alt="Scrub">
+      <div class="product-info">
+        <h3>Exfoliating Scrub</h3>
+        <p>Removes dead skin cells and smoothens your skin texture.</p>
+        <div class="price">RM 20.00&nbsp;</div>
+        <br>
+        <a href="#" class="btn">Add to Cart</a>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    &copy; 2025 Smart Skincare | All Rights Reserved 💕
+  </footer>
+
+</body>
+</html>
